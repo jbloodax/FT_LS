@@ -38,18 +38,20 @@ void    init_files(char *name, t_file **files)
 {
     DIR *dir;
     t_dirent *ent;
-    t_stat stat;
+    t_stat s;
     t_file *file;
 
-    if (!(dir = opendir(name))) 
+    char *path = "/Users/jbloodax/ft_ls/src/";
+
+    if (dir = opendir(name))
     {
 
-        while (!(ent = readdir(dir))) 
+        while (ent = readdir(dir))
         {
-
-           if (lstat(ent->d_name, &stat) != -1)
+			ft_putstr(ent->d_name);
+           if (lstat(ft_strjoin(path, ent->d_name), &s) != -1)
            {
-               file = create_file(ent->d_name, ent->d_name, &stat);
+               file = create_file(ent->d_name, ent->d_name, &s);
                append_file(files, file);
            }
         }

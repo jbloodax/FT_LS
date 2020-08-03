@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ft_ls"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/jbloodax/ft_ls/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/jbloodax/ft_ls/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/jbloodax/ft_ls/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_ls">
+				<Option output="/Users/jbloodax/ft_ls/cmake-build-debug/ft_ls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jbloodax/ft_ls/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jbloodax/ft_ls/includes"/>
+					<Add directory="/Users/jbloodax/ft_ls/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_ls"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_ls/fast">
+				<Option output="/Users/jbloodax/ft_ls/cmake-build-debug/ft_ls" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/jbloodax/ft_ls/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/jbloodax/ft_ls/includes"/>
+					<Add directory="/Users/jbloodax/ft_ls/libft/includes"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_ls/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/jbloodax/ft_ls/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/jbloodax/ft_ls/includes/ft_ls.h">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/bintree/bintree.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_atoi.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_itoa.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_lltoa.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_tolower.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_toupper.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_uitoa_base.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/conversion/ft_ulltoa_base.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isalnum.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isalpha.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isascii.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isdigit.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isescape.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isnumber.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/ctype/ft_isprint.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putchar.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putchar_fd.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putendl.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putendl_fd.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_puterror.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putnbr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putnbr_fd.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putstr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/display/ft_putstr_fd.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/gnl/get_next_line.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/includes/bintree.h">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/includes/get_next_line.h">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/includes/libft.h">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/includes/stack.h">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/includes/vector.h">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/math/ft_abs.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/math/ft_bpow.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/math/ft_max.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/math/ft_min.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/math/ft_random.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_bzero.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memalloc.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memccpy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memchr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memcmp.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memcpy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memdel.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memmove.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memset.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_memswap.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/memory/ft_swap.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_byte_capacity.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_byte_size.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_destroy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_get_element.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_init.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_is_empty.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_is_initialized.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_move.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_move_array.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_move_data.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_pop.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_push.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_second.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/stack/stack_top.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strcat.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strchr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strchri.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strclr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strcmp.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strcpy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strdup.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strequ.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_striter.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_striteri.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strjoin.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strlcat.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strlen.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strmap.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strmapi.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strncat.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strncmp.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strncpy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strnequ.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strnew.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strnstr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strrchr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strsplit.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strstr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strsub.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/strings/ft_strtrim.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_byte_capacity.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_byte_size.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_chr.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_clear.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_copy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_destroy.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_erase.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_free_size.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_get_element.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_init.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_insert_data.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_is_empty.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_is_initialized.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_memmove.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_move.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_move_array.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_move_back_array.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_move_back_data.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_offset.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_pop_back.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_pop_front.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_push_back_array.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_push_back_data.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_push_front_data.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_qsort.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_reallocate.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_resize.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/libft/vector/vector_set_element.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/src/ft_ls.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/src/list.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/src/parse.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/src/print.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/src/sorting.c">
+			<Option target="ft_ls"/>
+		</Unit>
+		<Unit filename="/Users/jbloodax/ft_ls/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

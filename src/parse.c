@@ -10,7 +10,7 @@ void 	parse_flags(int *argc, char **argv[])
     i = 1;
     offset = 0;
     printf("%d %s", *argc, **argv);
-    while (i < *argc && *argv[i][0] == '-')
+    while (i < *argc && (*argv)[i][0] == '-')
     {
         j = 1;
         while (*argv[i][j] && (offset = ft_strchri(LS_FLAGS, *argv[i][1])) != -1)
@@ -29,7 +29,7 @@ void     parse_files(int argc, char **argv, t_file **files)
     size_t i;
 
     i = 0;
-    if (*argv)
+    if (!*argv)
     {
         init_files(".", files);
     }
@@ -41,5 +41,6 @@ void     parse_files(int argc, char **argv, t_file **files)
             i++;
         }
     }
+	sort_ascii(files);
     print_files(*files);
 }
