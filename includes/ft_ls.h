@@ -41,6 +41,7 @@
 # define LS_FLAGS "alRrtdG1Ss"
 
 typedef struct stat		t_stat;
+typedef struct dirent 	t_dirent;
 
 typedef enum 			e_sort
 {
@@ -71,26 +72,27 @@ t_ui 					g_f;
 
 /* ------------------------ PARSE -----------------------------------*/
 
-int 	parse_flags(int argc, char *argv[]);
-int 	parse_name(int argc, char *argv[], );
+void 	parse_flags(int *argc, char **argv[]);
+void 	parse_files(int argc, char *argv[], t_file **files);
 
 /* ------------------------ ERROR ------------------------------------*/
 
 /* ------------------------ SORT -------------------------------------*/
 
-void 	sort_switch(void);
-void 	sort_time(t_file **list_file);
-void 	sort_ascii(t_file **list_file);
-void 	sort_size(t_file **list_file);
-void 	sort_reverse(t_file **list_file);
+void 	sort_switch(t_file **files);
+void 	sort_time(t_file **files);
+void 	sort_ascii(t_file **files);
+void 	sort_size(t_file **files);
+void 	sort_reverse(t_file **files);
 
 /* ------------------------ PRINT -------------------------------------*/
 
+void 	print_files(t_file *files);
+
 /* ------------------------ LIST --------------------------------------*/
 
-t_file 	*create_node(t_stat *stat);
-
-
-
+t_file 	*create_file(char *name, char *full_path, t_stat *stat);
+void 	init_files(char *name, t_file **files);
+void 	append_file(t_file **files, t_file *file);
 
 #endif

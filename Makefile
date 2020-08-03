@@ -12,7 +12,11 @@
 
 FILE_LS 			= \
 						ft_ls \
-						parse
+						parse \
+						sorting \
+						print \
+						list
+						
 
 DIR_SRC				= ./src/
 DIR_INC				= ./includes/
