@@ -33,12 +33,22 @@
 # define LS_R	(1 << 3) // сортировать содержимое каталога в обратном порядке
 # define LS_T	(1 << 4) // сортировать по времени последней модификации (поле `mtime' в inode)
 # define LS_D	(1 << 5) // выдавать имена каталогов, как будто они обычные файлы, вместо того, чтобы показывать их содержимое
-# define LS_G	(1 << 6) // 
+# define LS_G	(1 << 6) // не отображать информацию о группе в длинном формате вывода
 # define LS_ONE (1 << 7) // выдавать один файл на строку
-# define LS_SS	(1 << 8) //
-# define LS_S	(1 << 9) //
+# define LS_SS	(1 << 8) // производить сортировку по размеру файла, вместо сортировки по алфавиту
+# define LS_S	(1 << 9) // выдавать размер каждого файла в блоках по 1024 байта слева от имени файла
+
+# define LS_FLAGS "alRrtdG1Ss"
 
 typedef struct stat		t_stat;
+
+typedef enum 			e_sort
+{
+	SORT_ASCII, 
+	SORT_TIME, 
+	SORT_SIZE, 
+	SORT_REVERSE
+}						t_sort;
 
 typedef struct			s_file
 {
@@ -56,21 +66,30 @@ typedef struct			s_file
 	struct s_file		*next;
 }						t_file;
 
+t_ui 					g_f;
 
-/* ------------------------ PARSER -----------------------------------*/
 
-void 	parse_flags(int argc, char *argv[]);
+/* ------------------------ PARSE -----------------------------------*/
+
+int 	parse_flags(int argc, char *argv[]);
+int 	parse_name(int argc, char *argv[], );
 
 /* ------------------------ ERROR ------------------------------------*/
 
 /* ------------------------ SORT -------------------------------------*/
 
-void 	sort_time(t_file **list);
-void 	sort_ascii(t_file **list);
-void 	sort_size(t_file **list);
-void 	sort_reverse(t_file **list);
+void 	sort_switch(void);
+void 	sort_time(t_file **list_file);
+void 	sort_ascii(t_file **list_file);
+void 	sort_size(t_file **list_file);
+void 	sort_reverse(t_file **list_file);
 
 /* ------------------------ PRINT -------------------------------------*/
+
+/* ------------------------ LIST --------------------------------------*/
+
+t_file 	*create_node(t_stat *stat);
+
 
 
 
