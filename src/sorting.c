@@ -11,3 +11,23 @@ void 	sort_switch(t_file **list_file)
     else
         sort_ascii(list_file);
 }
+
+void 	sort_time(t_file **list_file)
+{
+
+}
+
+void 	sort_ascii(t_file **list_file)
+{
+    
+}
+
+void 	sort_size(t_file **list_file)
+{
+    
+}
+
+void 	sort_reverse(t_file **list_file)
+{
+    
+}
